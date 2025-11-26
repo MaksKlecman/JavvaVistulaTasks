@@ -13,11 +13,11 @@ public class Mammal extends Animal
     public Mammal(String name)
     {
         super(name);
-    }
+     }
 
     @Override
-    public void eat()
-    {
+     public void eat()
+     {
         System.out.println(name + " the mammal eats");
     }
 

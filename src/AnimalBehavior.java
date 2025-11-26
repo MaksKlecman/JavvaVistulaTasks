@@ -1,2 +1,3 @@
-public class AnimalBehavior {
+public interface AnimalBehavior {
+    void sleep();
 }

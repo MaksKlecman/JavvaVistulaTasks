@@ -7,13 +7,13 @@ public class Fish extends Animal implements AnimalMove
     public Fish(String name, int age, double weight, boolean saltWater)
     {
         super(name, age, weight);
-        this.saltWater = saltWater;
+         this.saltWater = saltWater;
     }
 
      public Fish(String name)
     {
         super(name);
-    }
+     }
 
     @Override
     public void eat()

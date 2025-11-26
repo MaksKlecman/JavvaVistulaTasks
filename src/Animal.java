@@ -30,7 +30,9 @@ public abstract class Animal
     public double getWeight() { return weight; }
     public void setWeight(double weight) { this.weight = weight; }
 
-    public String toString() {
+    public String toString()
+
+    {
         return name + " age=" + age + " weight=" + weight;
     }
 }
